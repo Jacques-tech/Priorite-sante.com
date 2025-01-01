@@ -1,0 +1,161 @@
+body {
+	font-family: "Montserrat", sans-serif;
+	padding: 1% 10%;
+	margin: 20px;
+	
+}
+
+main{
+	position: relative;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+}
+.entete{
+	text-align: center;
+	background-color: #35424a;
+	color:#ffffff ;
+	padding: 15px;
+	opacity: 0,7;
+	margin: auto;
+
+}
+.formulaire{
+	position: relative;
+	height: 60%;
+	width: 45%;
+	border: 1px solid royalblue;
+	border-radius: 10px;
+	display: flex;
+	padding: 10px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 10px;
+}
+.header{
+	font-size: 1.5rem;
+	font-family: sans-serif;
+	color: #666;
+	position: absolute;
+	top: 20px;
+
+}
+.form_contziner_input{
+	padding: 1àpx;
+	width: 80%;
+	border-radius: 10px;
+	border: 2px solid #246;
+	outline: none;
+
+
+}
+.form_container_button{
+	padding: 1àpx;
+	width: 80%;
+	border-radius: 10px;
+	border: 2px solid #246;
+	outline: none;
+	background-color: #24649c;
+	color: #ffffff;
+	
+}
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 1rem;
+}
+
+a:hover{
+	color: #63C7B2;
+}
+.navbar{
+	width: 100%;
+	max-width: 100%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav1{
+	width: 100%;
+	margin: auto;
+	display: flex;
+	gap: 2rem;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	
+}
+.burger-menu-button{
+	display: none;
+	
+}
+
+.burger-menu{
+	display: none;
+	height: 0;
+	transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	
+}
+
+.burger-menu.open{
+	height: -100%;
+}
+.links li{
+	padding: 0.7rem;
+	display: flex;
+	background: #00000023;
+	font-family: "Montserrat", sans-serif;
+	height: 5px;
+}
+
+footer {
+    background-color: hsl(0, 71%, 96%);
+    padding: 20px;
+    text-align: center;
+    
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column ;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    background-color:#35424a ;
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin: 0 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    
+    
+}
+
+
+
+
+/*@media(max-width:750px){
+	.nav1{
+		display: none;
+	}
+	.burger-menu-button{
+		display:block;
+	}
+	.burger-menu{
+		display: block;
+	}
+}
